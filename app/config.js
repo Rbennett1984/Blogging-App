@@ -5,4 +5,4 @@ const config = {
     test_port: 4242,
     test_db: 'mongodb://localhost/myblog_test'
   }
-  module.exports = config;
+  export default config;
