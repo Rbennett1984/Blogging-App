@@ -1,6 +1,6 @@
 const express = require('express');
 const BlogController = require('./controllers/blogpost.controller');
-module.exports = app => {
+module.export = app => {
   // route groups
   const apiRoutes = express.Router();
   const blogPostRoutes = express.Router();
